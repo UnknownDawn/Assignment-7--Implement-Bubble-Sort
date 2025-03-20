@@ -214,12 +214,14 @@ public class Assignment7{
 
 
                 if (array[position] > array[nextSpot]) {
+                    
                     //Switched
                     switchedYet = true;
 
                     int valueToHold = array[position];
                     array[position] = array[nextSpot];
                     array[position + 1] = valueToHold;
+
 
                 }
             }
